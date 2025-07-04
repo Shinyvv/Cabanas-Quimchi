@@ -2,6 +2,7 @@
 
 import Link from "next/link"
 import { usePathname } from "next/navigation"
+import { useState } from "react"
 import { cn } from "@/lib/utils"
 import { Button } from "@/components/ui/button"
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
@@ -18,6 +19,11 @@ const navigation = [
 
 export function Navigation() {
   const pathname = usePathname()
+  const [isOpen, setIsOpen] = useState(false)
+
+  const handleLinkClick = () => {
+    setIsOpen(false)
+  }
 
   return (
     <nav className="sticky top-0 z-50 bg-white/95 backdrop-blur-sm border-b border-parchment-200">
@@ -44,9 +50,10 @@ export function Navigation() {
           </div>
 
           {/* Mobile Navigation */}
-          <Sheet>
+          <Sheet open={isOpen} onOpenChange={setIsOpen}>
             <SheetTrigger asChild className="md:hidden">
-              <Button variant="ghost" size="icon">
+              <Button variant="ghost" className="flex items-center space-x-2">
+                <span className="text-sm font-medium text-umber-700">Menú</span>
                 <Menu className="h-5 w-5" />
               </Button>
             </SheetTrigger>
@@ -56,6 +63,7 @@ export function Navigation() {
                   <Link
                     key={item.name}
                     href={item.href}
+                    onClick={handleLinkClick}
                     className={cn(
                       "text-lg font-medium transition-colors hover:text-umber-600 py-2",
                       pathname === item.href ? "text-umber-700 font-semibold" : "text-umber-500",

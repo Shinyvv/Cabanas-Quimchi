@@ -114,7 +114,7 @@ export default function HomePage() {
                   <div className="flex items-start space-x-3">
                     <CheckCircle className="h-6 w-6 text-green-600 mt-0.5 flex-shrink-0" />
                     <p className="text-umber-600">
-                      <strong>Experiencias Únicas:</strong> Visita astillero tradicional y conoce a apicultor local
+                      <strong>Experiencias Únicas:</strong> Visita astillero tradicional y conoce la apicultura
                     </p>
                   </div>
                   <div className="flex items-start space-x-3">
