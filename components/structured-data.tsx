@@ -133,12 +133,12 @@ export const programStructuredData = {
     {
       "@type": "TouristDestination",
       name: "Día 2: Recorrido Local por Quemchi",
-      description: "Visita pueblo, astillero tradicional y apicultor local",
+      description: "Visita pueblo, astillero local y apicultor local",
     },
     {
       "@type": "TouristDestination",
       name: "Día 4: Navegación a Islas",
-      description: "Excursión a Isla Caucague e Isla Mechuque",
+      description: "Excursión a Isla Caucahue e Islas Mechuque",
     },
     {
       "@type": "TouristDestination",
@@ -159,11 +159,6 @@ export const accommodationStructuredData = {
   },
   accommodationCategory: "Cabin",
   amenityFeature: [
-    {
-      "@type": "LocationFeatureSpecification",
-      name: "Cocina equipada",
-      value: true,
-    },
     {
       "@type": "LocationFeatureSpecification",
       name: "Calefacción",

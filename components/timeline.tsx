@@ -23,8 +23,8 @@ const programData = [
       "Desayuno en las cabañas",
       "Visita al pueblo de Quemchi",
       "Visitas a ubicaciones emblemáticas",
-      "Visitas a lugares naturales populares",
-      "Visita al islote de Aucar",
+      "Visitas a bellos lugares naturales",
+      "Visita al Islote Aucar (Isla de las almas navegantes)",
       "Regreso y cena en las cabañas",
     ],
     meals: ["Desayuno", "Almuerzo", "Cena"],
@@ -48,7 +48,7 @@ const programData = [
     icon: Ship,
     activities: [
       {
-        text: "Navegación hacia Isla Caucague o Mechuque",
+        text: "Navegación hacia Isla Caucahue o Islas Mechuque",
         subtitle: "(Sujeto a condiciones climáticas)",
       },
       "Regreso y cena en las cabañas",
@@ -81,12 +81,13 @@ const programData = [
     title: "Despedida",
     icon: Sunrise,
     activities: [
-      "Desayuno de despedida",
+      "Desayuno en la cabaña",
+      "Almuerzo en la cabaña (Según horario de salida)",
       "Check-out y empaque",
       "Traslado al aeropuerto de Mocopulli Castro o terminal de buses Ancud",
-      "Fin de la experiencia rural",
+      "Fin de la experiencia",
     ],
-    meals: ["Desayuno"],
+    meals: ["Desayuno", "Almuerzo"],
   },
 ]
 

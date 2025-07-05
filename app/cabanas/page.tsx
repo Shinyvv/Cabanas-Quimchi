@@ -7,7 +7,7 @@ import { StructuredData, accommodationStructuredData } from "@/components/struct
 export const metadata: Metadata = {
   title: "Nuestras Cabañas",
   description:
-    "Cabañas cómodas y acogedoras para 2-10 personas en Quemchi, Chiloé. Equipadas con cocina, calefacción, WiFi y vista al mar. Perfectas para familias y grupos.",
+    "Cabañas cómodas y acogedoras para 2-10 personas en Quemchi, Chiloé. Equipadas con calefacción, WiFi y vista al mar. Perfectas para familias y grupos.",
   keywords: [
     "cabañas Chiloé",
     "alojamiento Quemchi",
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Nuestras Cabañas | Cabañas Guardiamó",
     description:
-      "Cabañas equipadas para 2-10 personas con vista al mar, cocina completa y todos los servicios incluidos en Quemchi, Chiloé.",
+      "Cabañas equipadas para 2-10 personas con vista al mar y todos los servicios incluidos en Quemchi, Chiloé.",
     images: ["/cabanas-og.jpg"],
   },
 }
@@ -29,8 +29,8 @@ const cabanasData = [
     id: 1,
     name: "Cabaña Familiar 1",
     capacity: "4-6 personas",
-    description: "Cabaña acogedora con ambiente rural auténtico. Perfecta para familias que buscan desconectarse.",
-    amenities: ["Cocina equipada", "Baño privado", "Calefacción", "Vista al mar", "Terraza"],
+    description: "Cabaña acogedora con ambiente rural, Perfecta para quienes buscan desconectarse.",
+    amenities: ["Baño privado", "Calefacción", "Vista al mar", "Terraza"],
     image: "/cabana1.jpg",
   },
   {
@@ -38,7 +38,7 @@ const cabanasData = [
     name: "Cabaña Familiar 2",
     capacity: "4-6 personas",
     description: "Cabaña con encanto rural y todas las comodidades básicas para una estadía confortable.",
-    amenities: ["Cocina completa", "Baño privado", "Calefacción", "Vista panorámica", "Deck de madera"],
+    amenities: ["Baño privado", "Calefacción", "Vista panorámica"],
     image: "/cabana2.jpg",
   },
 ]

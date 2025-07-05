@@ -63,7 +63,63 @@ const galleryImages = [
   {
     src: "/amanecer.jpg",
     alt: "Foto de un amanecer",
-  }
+  },
+  {
+    src: "/banca_en_muelle.jpeg",
+    alt: "Banca en muelle",
+  },
+  {
+    src: "/cabana1.jpg",
+    alt: "Cabaña 1",
+  },
+  {
+    src: "/cabana2.jpg",
+    alt: "Cabaña 2",
+  },
+  {
+    src: "/Casa.png",
+    alt: "Casa",
+  },
+  {
+    src: "/Casas_elevadas.jpeg",
+    alt: "Casas elevadas",
+  },
+  {
+    src: "/comida_tradicional.jpg",
+    alt: "Comida tradicional",
+  },
+  {
+    src: "/Flores_frente_casa.jpeg",
+    alt: "Flores frente casa",
+  },
+  {
+    src: "/Foto_museo2.jpeg",
+    alt: "Foto museo 2",
+  },
+  {
+    src: "/Iglesia2.jpeg",
+    alt: "Iglesia 2",
+  },
+  {
+    src: "/Iglesia3.jpeg",
+    alt: "Iglesia 3",
+  },
+  {
+    src: "/Muelle.jpeg",
+    alt: "Muelle",
+  },
+  {
+    src: "/Naturaleza.jpeg",
+    alt: "Naturaleza",
+  },
+  {
+    src: "/Naturaleza2.jpeg",
+    alt: "Naturaleza 2",
+  },
+  {
+    src: "/No_se_que_es.jpeg",
+    alt: "Cementerio(?)",
+  },
 ]
 
 export default function GaleriaPage() {

@@ -111,22 +111,13 @@ export function Footer() {
                 <h5 className="font-medium text-parchment-100 mb-2">Síguenos</h5>
                 <div className="flex space-x-4">
                   <a 
-                    href="https://instagram.com/cabanasguardiamo" 
+                    href="https://www.instagram.com/playa_guardiamo/" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="text-parchment-200 hover:text-pink-400 transition-colors duration-200"
                   >
                     <Instagram className="h-5 w-5" />
                     <span className="sr-only">Instagram</span>
-                  </a>
-                  <a 
-                    href="https://facebook.com/cabanasguardiamo" 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                    className="text-parchment-200 hover:text-blue-400 transition-colors duration-200"
-                  >
-                    <Facebook className="h-5 w-5" />
-                    <span className="sr-only">Facebook</span>
                   </a>
                 </div>
               </div>

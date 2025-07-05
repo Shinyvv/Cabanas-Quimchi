@@ -5,6 +5,7 @@ import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { MapPin, Users, Utensils, Car, CheckCircle } from "lucide-react"
 import { StructuredData, homeStructuredData } from "@/components/structured-data"
+import { CommentSection } from "@/components/comments/CommentSection"
 
 export default function HomePage() {
   return (
@@ -30,7 +31,7 @@ export default function HomePage() {
               <p className="text-xl md:text-2xl mb-8 text-parchment-100">7 días y 6 noches de pura magia en Chiloé</p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
                 <Badge variant="secondary" className="text-lg px-6 py-2 bg-parchment-500 text-umber-700">
-                  Desde $480.000 por persona
+                  A solo $480.000 por persona
                 </Badge>
                 <Button asChild size="lg" className="bg-umber-700 hover:bg-umber-800">
                   <Link href="/programa">Ver Programa Completo</Link>
@@ -81,7 +82,7 @@ export default function HomePage() {
               <Card className="text-center hover:scale-105 transition-transform duration-300">
                 <CardContent className="p-6">
                   <Users className="h-12 w-12 text-umber-600 mx-auto mb-4" />
-                  <h3 className="font-semibold text-umber-700 mb-2">Cabañas 2-10 Personas</h3>
+                  <h3 className="font-semibold text-umber-700 mb-2">Cabañas hasta para 10 Personas</h3>
                   <p className="text-sm text-umber-600">Espacios cómodos para familias y grupos</p>
                 </CardContent>
               </Card>
@@ -107,14 +108,14 @@ export default function HomePage() {
                   <div className="flex items-start space-x-3">
                     <CheckCircle className="h-6 w-6 text-green-600 mt-0.5 flex-shrink-0" />
                     <p className="text-umber-600">
-                      <strong>Navegación a Islas:</strong> Explora Isla Caucague e Isla Mechuque con sus palafitos
+                      <strong>Navegación a Islas:</strong> Explora Isla Caucahue e Islas Mechuque con sus palafitos
                       únicos
                     </p>
                   </div>
                   <div className="flex items-start space-x-3">
                     <CheckCircle className="h-6 w-6 text-green-600 mt-0.5 flex-shrink-0" />
                     <p className="text-umber-600">
-                      <strong>Experiencias Únicas:</strong> Visita astillero tradicional y conoce la apicultura
+                      <strong>Experiencias Únicas:</strong> Visita astillero local y conoce a un apicultor local
                     </p>
                   </div>
                   <div className="flex items-start space-x-3">
@@ -145,6 +146,9 @@ export default function HomePage() {
             </div>
           </div>
         </section>
+
+        {/* Comment Section */}
+        <CommentSection />
 
         {/* Condiciones */}
         <section className="py-12 bg-umber-50">

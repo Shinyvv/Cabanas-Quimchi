@@ -45,67 +45,26 @@ export default function UbicacionPage() {
               </CardHeader>
               <CardContent>
                 <div className="aspect-video bg-parchment-200 rounded-lg flex items-center justify-center">
-                  <div className="text-center text-umber-600">
-                    <MapPin className="h-12 w-12 mx-auto mb-4" />
-                    <p className="font-semibold">Cabañas Guardiamó</p>
-                    <p className="text-sm">Quemchi, Chiloé</p>
-                    <p className="text-xs mt-2">Mapa interactivo de Google Maps</p>
-                  </div>
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!4v1751689796919!6m8!1m7!1sCAoSFkNJSE0wb2dLRUlDQWdJRDJudEhaR1E.!2m2!1d-42.18472806387833!2d-73.41954676913214!3f74.94402825258538!4f-46.98433028594694!5f0.7820865974627469"
+                    width="100%"
+                    height="100%"
+                    style={{ border: 0, minHeight: 320, borderRadius: '0.5rem' }}
+                    allowFullScreen
+                    loading="lazy"
+                    referrerPolicy="no-referrer-when-downgrade"
+                    title="Ubicación en Google Maps"
+                  ></iframe>
                 </div>
-              </CardContent>
-            </Card>
-          </div>
-
-          {/* Instrucciones */}
-          <div className="order-1 lg:order-2 space-y-6">
-            <Card>
-              <CardHeader>
-                <CardTitle className="flex items-center text-umber-700">
-                  <Plane className="h-5 w-5 mr-2" />
-                  Desde el Aeropuerto
-                </CardTitle>
-              </CardHeader>
-              <CardContent>
-                <div className="space-y-3">
-                  <div className="flex items-start space-x-3">
-                    <Clock className="h-5 w-5 text-umber-600 mt-0.5 flex-shrink-0" />
-                    <div>
-                      <p className="font-semibold text-umber-700">Duración: 45 minutos</p>
-                      <p className="text-sm text-umber-600">Desde Aeropuerto Mocopulli Castro</p>
-                    </div>
-                  </div>
-                  <ol className="list-decimal list-inside space-y-2 text-umber-600">
-                    <li>Salir del aeropuerto hacia Ruta 5</li>
-                    <li>Tomar dirección norte hacia Castro</li>
-                    <li>En Castro, seguir hacia Quemchi por Ruta W-25</li>
-                    <li>Llegar a Quemchi y seguir señalización</li>
-                  </ol>
-                </div>
-              </CardContent>
-            </Card>
-
-            <Card>
-              <CardHeader>
-                <CardTitle className="flex items-center text-umber-700">
-                  <Car className="h-5 w-5 mr-2" />
-                  Desde Ancud
-                </CardTitle>
-              </CardHeader>
-              <CardContent>
-                <div className="space-y-3">
-                  <div className="flex items-start space-x-3">
-                    <Clock className="h-5 w-5 text-umber-600 mt-0.5 flex-shrink-0" />
-                    <div>
-                      <p className="font-semibold text-umber-700">Duración: 1 hora</p>
-                      <p className="text-sm text-umber-600">Desde terminal de buses Ancud</p>
-                    </div>
-                  </div>
-                  <ol className="list-decimal list-inside space-y-2 text-umber-600">
-                    <li>Salir de Ancud por Ruta 5 hacia el sur</li>
-                    <li>Continuar hasta Castro</li>
-                    <li>En Castro, tomar Ruta W-25 hacia Quemchi</li>
-                    <li>Seguir por 30 km hasta llegar a destino</li>
-                  </ol>
+                <div className="flex justify-center mt-4">
+                  <a
+                    href="https://maps.app.goo.gl/1zGpXXSutnfMRUHW8"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-block px-6 py-2 bg-umber-700 text-white rounded-lg font-semibold shadow hover:bg-umber-800 transition-colors"
+                  >
+                    Ubicación con latitud y longitud
+                  </a>
                 </div>
               </CardContent>
             </Card>
