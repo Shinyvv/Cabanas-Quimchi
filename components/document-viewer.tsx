@@ -116,7 +116,7 @@ export function DocumentViewer({ title, description }: DocumentViewerProps) {
                 <p>{language === "es" ? "• Incluye itinerario día a día" : "• Includes day-by-day itinerary"}</p>
                 <p>{language === "es" ? "• Detalles de comidas y actividades" : "• Meal and activity details"}</p>
                 <p>{language === "es" ? "• Información de traslados" : "• Transfer information"}</p>
-                <p>{language === "es" ? "• Condiciones y políticas" : "• Terms and policies"}</p>
+                <p>{language === "es" ? "• Condiciones" : "• Terms"}</p>
               </div>
             </div>
           </CardContent>

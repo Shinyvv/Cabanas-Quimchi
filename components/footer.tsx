@@ -19,9 +19,24 @@ export function Footer() {
               <MapPin className="h-4 w-4 mr-2 text-parchment-300" />
               <span>Quemchi, Chiloé, Chile</span>
             </div>
-            <div className="flex items-center text-parchment-200">
+            <div className="flex items-center text-parchment-200 mb-2">
               <Phone className="h-4 w-4 mr-2 text-parchment-300" />
               <span>+569 9361 5655</span>
+            </div>
+            <div className="flex items-center text-parchment-200 mb-2">
+              <Mail className="h-4 w-4 mr-2 text-parchment-300" />
+              <span>leonortega@gmail.com</span>
+            </div>
+            <div className="flex items-center text-parchment-200 mb-2">
+              <a
+                href="https://www.instagram.com/playa_guardiamo/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center text-parchment-200 hover:text-pink-400 transition-colors duration-200"
+              >
+                <Instagram className="h-5 w-5 mr-1" />
+                <span className="underline">@playa_guardiamo</span>
+              </a>
             </div>
           </div>
 

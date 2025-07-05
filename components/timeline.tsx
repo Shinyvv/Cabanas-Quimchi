@@ -20,7 +20,7 @@ const programData = [
     title: "¡Conozcamos Quemchi!",
     icon: TreePine,
     activities: [
-      "Desayuno en las cabañas",
+      "Desayuno",
       "Visita al pueblo de Quemchi",
       "Visitas a ubicaciones emblemáticas",
       "Visitas a bellos lugares naturales",
@@ -34,7 +34,7 @@ const programData = [
     title: "Día Libre",
     icon: Sunrise,
     activities: [
-      "Dia Libre para disfrutar a su gusto, con sugerencias de actividades",
+      "Día Libre para disfrutar a su gusto, con sugerencias de actividades",
       {
         text: "Sugerencias: caminatas por la playa, Visita al astillero local, Baño en el mar",
         subtitle: "Disponibilidad de Kayaks e implementos de seguridad",
@@ -60,7 +60,7 @@ const programData = [
     title: "Día Libre",
     icon: Sunrise,
     activities: [
-      "Dia de descanso con sugerencias de actividades",
+      "Día de descanso con sugerencias de actividades",
       "Sugerencia: Avistamiento de aves en el entorno natural, Visita a apicultor local",
     ],
     meals: ["Desayuno", "Almuerzo", "Cena"],

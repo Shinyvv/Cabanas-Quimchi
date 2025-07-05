@@ -82,7 +82,7 @@ export default function UbicacionPage() {
                 <div className="text-2xl mb-2">🚗</div>
                 <h3 className="font-semibold text-umber-700 mb-2">Traslados Incluidos</h3>
                 <p className="text-sm text-umber-600">
-                  Ofrecemos traslado gratuito desde aeropuerto o terminal de buses
+                  Ofrecemos traslado gratuito desde y hasta aeropuerto o terminal de buses al llegar e irse.
                 </p>
               </div>
               <div>

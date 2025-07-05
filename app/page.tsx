@@ -59,7 +59,7 @@ export default function HomePage() {
                 <CardContent className="p-6">
                   <Car className="h-12 w-12 text-umber-600 mx-auto mb-4" />
                   <h3 className="font-semibold text-umber-700 mb-2">Traslados Incluidos</h3>
-                  <p className="text-sm text-umber-600">Desde aeropuerto o terminal de buses hasta las cabañas</p>
+                  <p className="text-sm text-umber-600">Desde/hasta el aeropuerto o terminal de buses, desde/hasta las cabañas</p>
                 </CardContent>
               </Card>
 
@@ -75,14 +75,14 @@ export default function HomePage() {
                 <CardContent className="p-6">
                   <MapPin className="h-12 w-12 text-umber-600 mx-auto mb-4" />
                   <h3 className="font-semibold text-umber-700 mb-2">Experiencias Únicas</h3>
-                  <p className="text-sm text-umber-600">Isla Mechuque, avistamiento de aves y más</p>
+                  <p className="text-sm text-umber-600">Islas Mechuque, avistamiento de aves y más</p>
                 </CardContent>
               </Card>
 
               <Card className="text-center hover:scale-105 transition-transform duration-300">
                 <CardContent className="p-6">
                   <Users className="h-12 w-12 text-umber-600 mx-auto mb-4" />
-                  <h3 className="font-semibold text-umber-700 mb-2">Cabañas hasta para 10 Personas</h3>
+                  <h3 className="font-semibold text-umber-700 mb-2">Cabañas para 2 a 6 personas</h3>
                   <p className="text-sm text-umber-600">Espacios cómodos para familias y grupos</p>
                 </CardContent>
               </Card>
