@@ -120,6 +120,34 @@ const galleryImages = [
     src: "/No_se_que_es.jpeg",
     alt: "Cementerio(?)",
   },
+  {
+    src: "/palafitos.jpeg",
+    alt: "Palafitos de Quemchi",
+  },
+  {
+    src: "/Paseo_en_bote.jpeg",
+    alt: "Paseo en bote",
+  },
+  {
+    src: "/playa.jpeg",
+    alt: "Playa",
+  },
+  {
+    src: "/Playa2.jpeg",
+    alt: "Playa 2",
+  },
+  {
+    src: "/Quemchi2.jpeg",
+    alt: "Quemchi 2",
+  },
+  {
+    src: "/Quemchi3.jpeg",
+    alt: "Quemchi 3",
+  },
+  {
+    src: "/Vacas2.jpeg",
+    alt: "Vacas 2",
+  },
 ]
 
 export default function GaleriaPage() {
