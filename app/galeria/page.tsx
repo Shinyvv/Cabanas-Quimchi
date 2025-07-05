@@ -25,44 +25,20 @@ export const metadata: Metadata = {
 
 const galleryImages = [
   {
+    src: "/amanecer.jpg",
+    alt: "Foto de un amanecer",
+  },
+  {
     src: "/ambas_cabanas.jpg",
     alt: "Vista de ambas cabañas",
   },
   {
-    src: "/cascada_tocohue.jpg",
-    alt: "Imagen de la cascada Toco Hue en Quemchi",
+    src: "/baño.jpeg",
+    alt: "Baño de la cabaña",
   },
   {
-    src: "/vacas.jpg",
-    alt: "Preparación tradicional del curanto chilote en hoyo con piedras calientes y mariscos frescos",
-  },
-  {
-    src: "/msueo_mechuque.jpg",
-    alt: "vista exterior del museo de Isla Mechuque con palafitos al fondo",
-  },
-  {
-    src: "/isla_de_las_almas.jpg",
-    alt: "Vista panoramica de la Isla de las Almas con mar al fondo",
-  },
-  {
-    src: "/iglesia.jpg",
-    alt: "Imagen de la iglesia de Quemchi, un ícono arquitectónico de Chiloé",
-  },
-  {
-    src: "/desayuno_tradicional.jpg",
-    alt: "Imagen de un desayuno tradicional chileno con pan amasado, queso de campo y mermelada casera",
-  },
-  {
-    src: "/playa_barcos.jpg",
-    alt: "Playa con barcos",
-  },
-  {
-    src: "/Quemchi.jpg",
-    alt: "Imagen del nombre de Quemchi tallado en madera con fondo de mar",
-  },
-  {
-    src: "/amanecer.jpg",
-    alt: "Foto de un amanecer",
+    src: "/baño2.jpeg",
+    alt: "Segundo baño de la cabaña",
   },
   {
     src: "/banca_en_muelle.jpeg",
@@ -77,6 +53,14 @@ const galleryImages = [
     alt: "Cabaña 2",
   },
   {
+    src: "/cabana_interior.jpeg",
+    alt: "Interior de una cabaña",
+  },
+  {
+    src: "/cabana_interior2.jpeg",
+    alt: "Segundo interior de la cabaña",
+  },
+  {
     src: "/Casa.png",
     alt: "Casa",
   },
@@ -85,8 +69,20 @@ const galleryImages = [
     alt: "Casas elevadas",
   },
   {
+    src: "/cascada_tocohue.jpg",
+    alt: "Imagen de la cascada Toco Hue en Quemchi",
+  },
+  {
     src: "/comida_tradicional.jpg",
     alt: "Comida tradicional",
+  },
+  {
+    src: "/desayuno_tradicional.jpg",
+    alt: "Imagen de un desayuno tradicional chileno con pan amasado, queso de campo y mermelada casera",
+  },
+  {
+    src: "/dormitorio1.jpeg",
+    alt: "Dormitorio principal con cama matrimonial",
   },
   {
     src: "/Flores_frente_casa.jpeg",
@@ -97,12 +93,40 @@ const galleryImages = [
     alt: "Foto museo 2",
   },
   {
+    src: "/iglesia.jpg",
+    alt: "Imagen de la iglesia de Quemchi, un ícono arquitectónico de Chiloé",
+  },
+  {
     src: "/Iglesia2.jpeg",
     alt: "Iglesia 2",
   },
   {
     src: "/Iglesia3.jpeg",
     alt: "Iglesia 3",
+  },
+  {
+    src: "/isla_de_las_almas.jpg",
+    alt: "Vista panoramica de la Isla de las Almas con mar al fondo",
+  },
+  {
+    src: "/isla_de_las_almas_cartel.jpeg",
+    alt: "Cartel de bienvenida a la Isla de las Almas",
+  },
+  {
+    src: "/Mesa_cabana1.jpeg",
+    alt: "Mesa interior en cabaña 1",
+  },
+  {
+    src: "/mesa_cabana1_2.jpeg",
+    alt: "Mesa exterior en cabaña 1",
+  },
+  {
+    src: "/mesa_cabana2.jpeg",
+    alt: "Mesa exterior en cabaña 2",
+  },
+  {
+    src: "/msueo_mechuque.jpg",
+    alt: "vista exterior del museo de Isla Mechuque con palafitos al fondo",
   },
   {
     src: "/Muelle.jpeg",
@@ -121,33 +145,29 @@ const galleryImages = [
     alt: "Cementerio(?)",
   },
   {
-    src: "/palafitos.jpeg",
-    alt: "Palafitos de Quemchi",
+    src: "/playa_barcos.jpg",
+    alt: "Playa con barcos",
   },
   {
-    src: "/Paseo_en_bote.jpeg",
-    alt: "Paseo en bote",
+    src: "/Quemchi.jpg",
+    alt: "Imagen del nombre de Quemchi tallado en madera con fondo de mar",
   },
   {
-    src: "/playa.jpeg",
-    alt: "Playa",
+    src: "/vacas.jpg",
+    alt: "Preparación tradicional del curanto chilote en hoyo con piedras calientes y mariscos frescos",
   },
   {
-    src: "/Playa2.jpeg",
-    alt: "Playa 2",
+    src: "/vista_ventana.jpeg",
+    alt: "Vista desde la ventana",
   },
   {
-    src: "/Quemchi2.jpeg",
-    alt: "Quemchi 2",
+    src: "/vista_ventana2.jpeg",
+    alt: "Segunda vista desde la ventana",
   },
   {
-    src: "/Quemchi3.jpeg",
-    alt: "Quemchi 3",
-  },
-  {
-    src: "/Vacas2.jpeg",
-    alt: "Vacas 2",
-  },
+    src: "/Vista_playa.jpeg",
+    alt: "Imagen del pueblo de Quemchi con mar al fondo",
+  }
 ]
 
 export default function GaleriaPage() {
