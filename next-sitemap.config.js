@@ -1,29 +1,11 @@
-const nextConfig = {
-  async redirects() {
-    return [
-      {
-        source: '/:path*',
-        has: [
-          {
-            type: 'host',
-            value: 'xn--cabaasplayaguardiamo-66b.cl',
-          },
-        ],
-        destination: 'https://cabañasplayaguardiamo.cl/:path*',
-        permanent: true,
-      },
-      {
-        source: '/:path*',
-        has: [
-          {
-            type: 'host',
-            value: 'cabanasplayaguardiamo.cl',
-          },
-        ],
-        destination: 'https://cabañasplayaguardiamo.cl/:path*',
-        permanent: true,
-      },
-    ];
+/** @type {import('next-sitemap').IConfig} */
+module.exports = {
+  siteUrl: 'https://cabañasplayaguardiamo.cl',
+  generateRobotsTxt: true, // (Optional)
+  robotsTxtOptions: {
+    additionalSitemaps: [
+      'https://cabañasplayaguardiamo.cl/sitemap.xml',
+    ],
   },
-  // Resto de tu configuración...
+  // ...other options
 };
