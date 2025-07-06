@@ -1,10 +1,17 @@
-[[headers]]
-  for = "/*"
-  [headers.values]
-    x-netlify-redirect-override = "manual"
-
 [[redirects]]
   from = "https://xn--cabaasplayaguardiamo-66b.cl/*"
   to = "https://cabañasplayaguardiamo.cl/:splat"
   status = 301
   force = true
+
+[[redirects]]
+  from = "https://cabanasplayaguardiamo.cl/*"
+  to = "https://cabañasplayaguardiamo.cl/:splat"
+  status = 301
+  force = true
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    x-netlify-redirect-override = "manual"
+    Cache-Control = "no-cache"
