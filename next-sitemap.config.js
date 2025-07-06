@@ -1,5 +1,5 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-  siteUrl: 'https://cabanasplayaguardiamo.cl',
+  siteUrl: 'https://cabañasplayaguardiamo.cl',
   generateRobotsTxt: true,
 }
