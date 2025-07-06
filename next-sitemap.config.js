@@ -1,27 +1,22 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-  siteUrl: 'https://cabañasplayaguardiamo.cl', // Usar la versión con ñ
+  siteUrl: 'https://xn--cabaasplayaguardiamo-66b.cl', // Usar Punycode aquí
   generateRobotsTxt: true,
   robotsTxtOptions: {
-    policies: [
-      {
-        userAgent: '*',
-        allow: '/',
-        disallow: ['/404', '/500'], // Excluye páginas de error
-      },
-    ],
+    policies: [{ userAgent: '*', allow: '/' }],
     additionalSitemaps: [
-      'https://cabañasplayaguardiamo.cl/sitemap.xml', // Canonical con ñ
+      'https://xn--cabaasplayaguardiamo-66b.cl/sitemap.xml', // Punycode
     ],
   },
-  exclude: [
-    '/server-sitemap.xml', 
-    '/404',
-    '/500',
-    '/icon.svg',
-    '/favicon.ico'
-  ],
-  // Opcional: Prioridad y frecuencia de rastreo
-  changefreq: 'weekly',
-  priority: 0.7,
-}
+  // Transforma las URLs en el sitemap para mostrar ñ a usuarios:
+  transform: async (config, path) => {
+    return {
+      loc: path.replace(
+        'https://xn--cabaasplayaguardiamo-66b.cl',
+        'https://cabañasplayaguardiamo.cl' // Versión con ñ visible
+      ),
+      changefreq: 'weekly',
+      priority: 0.7,
+    };
+  },
+};
