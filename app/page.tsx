@@ -16,7 +16,7 @@ export default function HomePage() {
         <section className="relative h-[70vh] md:h-[80vh] overflow-hidden">
           <Image
             src="/Quemchi.jpg"
-            alt="Vista panorámica de las Cabañas Guardiamó en Quemchi, Chiloé con montañas y mar al fondo durante el atardecer"
+            alt="Vista panorámica de las Cabañas Playa Guardiamó en Quemchi, Chiloé con montañas y mar al fondo durante el atardecer"
             fill
             className="object-cover"
             priority

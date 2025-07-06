@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     "Instrucciones detalladas para llegar a Cabañas Guardiamó en Quemchi desde aeropuerto Mocopulli, Ancud y Castro. Traslados incluidos y coordenadas GPS.",
   keywords: ["ubicación Quemchi", "cómo llegar Chiloé", "aeropuerto Mocopulli", "traslados Chiloé", "coordenadas GPS"],
   openGraph: {
-    title: "Ubicación y Cómo Llegar | Cabañas Guardiamó",
+    title: "Ubicación y Cómo Llegar | Cabañas Playa Guardiamó - Quemchi, Chiloé",
     description:
       "Encuentra las mejores rutas para llegar a nuestras cabañas en Quemchi con traslados incluidos desde cualquier punto de Chiloé.",
     images: ["/Quemchi.jpg"],
