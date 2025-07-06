@@ -59,14 +59,14 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
-  metadataBase: new URL("https://cañanasplayaguardiamo.cl"),
+  metadataBase: new URL("https://xn--cabaasplayaguardiamo-66b.cl"),
   alternates: {
     canonical: "/",
   },
   openGraph: {
     type: "website",
     locale: "es_CL",
-    url: "https://cabañasplayaguardiamo.cl",
+    url: "https://xn--cabaasplayaguardiamo-66b.cl",
     title: "Cabañas Playa Guardiamó - Experiencia All-Inclusive en Quemchi, Chiloé",
     description:
       "Disfruta de 7 días y 6 noches en Cabañas Playa Guardiamó, Quemchi, con todo incluido. Traslados, comidas típicas chilotas y experiencias únicas en Chiloé desde $480.000 por persona.",
@@ -111,7 +111,7 @@ export default function RootLayout({
   return (
     <html lang="es-CL">
       <head>
-        <link rel="canonical" href="https://cabañasplayaguardiamo.cl" />
+        <link rel="canonical" href="https://xn--cabaasplayaguardiamo-66b.cl" />
         <meta name="geo.region" content="CL-LL" />
         <meta name="geo.placename" content="Quemchi, Chiloé" />
         <meta name="geo.position" content="-42.1234;-73.5678" />

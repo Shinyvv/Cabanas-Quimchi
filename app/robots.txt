@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://cabañasguardiamo.cl/sitemap.xml
+Sitemap: https://xn--cabaasplayaguardiamo-66b.cl/sitemap.xml
 
 # Disallow admin areas (if any)
 Disallow: /admin/
