@@ -7,12 +7,11 @@ const nextConfig = {
     ignoreBuildErrors: true,
   },
   images: {
-    unoptimized: true, // Necesario para despliegues estáticos (como Netlify)
+    unoptimized: true, // Necesario para despliegues estáticos en Netlify
   },
-  // --- Nuevas configuraciones añadidas ---
-  trailingSlash: true, // Para consistencia en URLs
+  trailingSlash: false, // Cambiado a false para evitar conflictos con Netlify
   env: {
-    SITE_URL: 'https://cabañasplayaguardiamo.cl', // Variable de entorno con ñ
+    SITE_URL: 'https://cabañasplayaguardiamo.cl',
   },
   async headers() {
     return [
@@ -21,7 +20,12 @@ const nextConfig = {
         headers: [
           {
             key: 'Content-Security-Policy',
-            value: "upgrade-insecure-requests" // Fuerza HTTPS
+            value: "upgrade-insecure-requests"
+          },
+          // Cabecera crucial para resolver el bucle de redirección
+          {
+            key: 'x-netlify-redirect-override',
+            value: 'manual' // Desactiva redirecciones automáticas de Netlify
           }
         ],
       },
@@ -29,29 +33,47 @@ const nextConfig = {
   },
   async redirects() {
     return [
+      // Redirección para versión Punycode
       {
         source: '/:path*',
         has: [
           {
             type: 'host',
-            value: 'xn--cabaasplayaguardiamo-66b.cl', // Redirige Punycode
+            value: 'xn--cabaasplayaguardiamo-66b.cl',
           },
         ],
         destination: 'https://cabañasplayaguardiamo.cl/:path*',
-        permanent: true, // 301
+        permanent: true,
       },
+      // Redirección para versión sin ñ
       {
         source: '/:path*',
         has: [
           {
             type: 'host',
-            value: 'cabanasplayaguardiamo.cl', // Redirige versión sin ñ
+            value: 'cabanasplayaguardiamo.cl',
           },
         ],
         destination: 'https://cabañasplayaguardiamo.cl/:path*',
-        permanent: true, // 301
+        permanent: true,
       },
+      // Redirección adicional para evitar bucles
+      {
+        source: '/',
+        has: [
+          {
+            type: 'host',
+            value: 'cabañasplayaguardiamo.cl',
+          },
+        ],
+        destination: '/',
+        permanent: false,
+      }
     ]
+  },
+  // Nueva configuración para manejar el prefijo de ruta en Netlify
+  experimental: {
+    missingSuspenseWithCSRBailout: false,
   }
 }
 

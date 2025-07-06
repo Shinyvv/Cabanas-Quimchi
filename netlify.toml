@@ -1,0 +1,5 @@
+[[redirects]]
+  from = "https://xn--cabaasplayaguardiamo-66b.cl/*"
+  to = "https://cabañasplayaguardiamo.cl/:splat"
+  status = 301
+  force = true
