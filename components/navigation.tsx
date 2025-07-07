@@ -62,7 +62,7 @@ export function Navigation() {
 								className="flex items-center space-x-2"
 							>
 								<span className="text-sm font-medium text-umber-700">
-									Mené
+									Menú
 								</span>
 								<Menu className="h-5 w-5" />
 							</Button>
