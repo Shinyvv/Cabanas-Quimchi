@@ -25,7 +25,12 @@ export function Footer() {
             </div>
             <div className="flex items-center text-parchment-200 mb-2">
               <Mail className="h-4 w-4 mr-2 text-parchment-300" />
-              <span>leonortega@gmail.com</span>
+              <a
+                href="mailto:leonortega@hotmail.com"
+                className="hover:text-parchment-100 transition-colors duration-200"
+              >
+                leonortega@hotmail.com
+              </a>
             </div>
             <div className="flex items-center text-parchment-200 mb-2">
               <a

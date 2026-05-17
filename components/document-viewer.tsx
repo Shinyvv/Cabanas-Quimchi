@@ -17,13 +17,13 @@ export function DocumentViewer({ title, description }: DocumentViewerProps) {
   const documents = {
     es: {
       title: "Programa Completo - Español",
-      filename: "programa-completo-es.docx",
-      url: "/programa-completo-es.docx", // URL del documento en español
+      filename: "programa-completo-es.pdf",
+      url: "/programa-completo-es.pdf", // URL del documento en español
     },
     en: {
       title: "Complete Program - English",
-      filename: "complete-program-en.docx",
-      url: "/complete-program-en.docx", // URL del documento en inglés
+      filename: "complete-program-en.pdf",
+      url: "/complete-program-en.pdf", // URL del documento en inglés
     },
   }
 
@@ -103,7 +103,7 @@ export function DocumentViewer({ title, description }: DocumentViewerProps) {
                     : "Download the complete program with all activity details, schedules and included services."}
                 </p>
                 <Badge variant="secondary" className="bg-parchment-500 text-umber-700">
-                  {language === "es" ? "Formato DOCX" : "DOCX Format"}
+                  {language === "es" ? "Formato PDF" : "PDF Format"}
                 </Badge>
               </div>
 

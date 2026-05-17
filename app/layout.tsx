@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     template: "%s | Cabañas Playa Guardiamó",
   },
   description:
-    "Disfruta de 7 días y 6 noches en Cabañas Playa Guardiamó, Quemchi, con todo incluido. Traslados, comidas típicas chilotas y experiencias únicas en Chiloé a $480.000 fijos por persona.",
+    "Disfruta de 7 días y 6 noches en Cabañas Playa Guardiamó, Quemchi, con todo incluido. Traslados, comidas típicas chilotas y experiencias únicas en Chiloé a $510.000 fijos por persona.",
   keywords: [
     "Cabañas Playa Guardiamó",
     "Quemchi",
@@ -69,7 +69,7 @@ export const metadata: Metadata = {
     url: "https://cabañasplayaguardiamo.cl",
     title: "Cabañas Playa Guardiamó - Experiencia All-Inclusive en Quemchi, Chiloé",
     description:
-      "Disfruta de 7 días y 6 noches en Cabañas Playa Guardiamó, Quemchi, con todo incluido. Traslados, comidas típicas chilotas y experiencias únicas en Chiloé desde $480.000 por persona.",
+      "Disfruta de 7 días y 6 noches en Cabañas Playa Guardiamó, Quemchi, con todo incluido. Traslados, comidas típicas chilotas y experiencias únicas en Chiloé desde $510.000 por persona.",
     siteName: "Cabañas Playa Guardiamó",
     images: [
       {
@@ -83,7 +83,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Cabañas Playa Guardiamó - Experiencia All-Inclusive en Quemchi, Chiloé",
-    description: "7 días y 6 noches con todo incluido en Chiloé con precio fijo de $480.000 por persona",
+    description: "7 días y 6 noches con todo incluido en Chiloé con precio fijo de $510.000 por persona",
     images: ["/Quemchi.jpg"],
   },
   robots: {

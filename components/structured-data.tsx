@@ -73,7 +73,7 @@ export const homeStructuredData = {
       },
       offers: {
         "@type": "Offer",
-        price: "480000",
+        price: "510000",
         priceCurrency: "CLP",
         availability: "https://schema.org/InStock",
         validFrom: "2024-01-01",

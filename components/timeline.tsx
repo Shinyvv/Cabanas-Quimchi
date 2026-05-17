@@ -8,12 +8,12 @@ const programData = [
     title: "Llegada y Bienvenida",
     icon: Plane,
     activities: [
-      "Recepción en aeropuerto de Mocopulli Castro o terminal de buses Ancud",
-      "Traslado a Cabañas Guardiamó",
-      "Bienvenida con comida típica chilota",
-      "Descanso y adaptación al ambiente rural",
+      "Recepción en aeropuerto Mocopulli de Castro o terminal de buses de Ancud",
+      "Traslado a Cabañas Playa Guardiamó, Quemchi",
+      "Bienvenida con parrillada especial",
+      "Tarde libre para descansar y ambientarse",
     ],
-    meals: ["Almuerzo", "Cena"],
+    meals: ["Parrillada especial", "Once"],
   },
   {
     day: 2,
@@ -21,26 +21,27 @@ const programData = [
     icon: TreePine,
     activities: [
       "Desayuno",
-      "Visita al pueblo de Quemchi",
-      "Visitas a ubicaciones emblemáticas",
-      "Visitas a bellos lugares naturales",
-      "Visita al Islote Aucar (Isla de las almas navegantes)",
-      "Regreso y cena en las cabañas",
+      "Visita a la Iglesia Patrimonial de Colo",
+      "Visita a la Cascada de Tocoihue",
+      "Visita al Islote Aucar, conocido como la Isla de las Almas Navegantes",
+      "Recorrido por el pueblo de Quemchi",
+      "Regreso a las cabañas",
     ],
-    meals: ["Desayuno", "Almuerzo", "Cena"],
+    meals: ["Desayuno", "Merienda", "Once"],
   },
   {
     day: 3,
     title: "Día Libre",
     icon: Sunrise,
     activities: [
-      "Día Libre para disfrutar a su gusto, con sugerencias de actividades",
+      "Día libre de descanso para disfrutar el entorno natural",
       {
-        text: "Sugerencias: caminatas por la playa, Visita al astillero local, Baño en el mar",
-        subtitle: "Disponibilidad de Kayaks e implementos de seguridad",
+        text: "Sugerencias: caminatas por la playa y alrededores, visita al astillero local, baño en el mar y uso de kayaks",
+        subtitle:
+          "Disponibilidad de 2 kayaks monoplaza y 1 kayak doble, con implementos de seguridad",
       },
     ],
-    meals: ["Desayuno", "Almuerzo", "Cena"],
+    meals: ["Desayuno", "Almuerzo", "Once"],
   },
   {
     day: 4,
@@ -48,22 +49,25 @@ const programData = [
     icon: Ship,
     activities: [
       {
-        text: "Navegación hacia Isla Caucahue o Islas Mechuque",
-        subtitle: "(Sujeto a condiciones climáticas)",
+        text: "Navegación por el canal Caucahué",
+        subtitle:
+          "Actividad sujeta a condiciones climáticas; podría adelantarse o posponerse",
       },
-      "Regreso y cena en las cabañas",
+      "Regreso a las cabañas",
     ],
-    meals: ["Desayuno", "Almuerzo", "Cena"],
+    meals: ["Desayuno", "Merienda", "Once"],
   },
   {
     day: 5,
     title: "Día Libre",
     icon: Sunrise,
     activities: [
-      "Día de descanso con sugerencias de actividades",
-      "Sugerencia: Avistamiento de aves en el entorno natural, Visita a apicultor local",
+      "Día libre de descanso con sugerencias de actividades",
+      "Avistamiento de cisnes de cuello negro, otras aves y, con algo de fortuna, toninas",
+      "Caminatas, kayaks, juegos de mesa, lectura o descanso",
+      "Café al atardecer alrededor de un bracero",
     ],
-    meals: ["Desayuno", "Almuerzo", "Cena"],
+    meals: ["Desayuno", "Almuerzo", "Once"],
   },
   {
     day: 6,
@@ -72,22 +76,22 @@ const programData = [
     activities: [
       "Desayuno tradicional",
       "Traslado a Dalcahue",
-      "Regreso y cena chilota de despedida",
+      "Visita a uno de los lugares imperdibles de Chiloé",
+      "Compra de artesanía, miel, quesos y otros productos locales",
+      "Regreso a las cabañas",
+      "Cena chilota de despedida",
     ],
-    meals: ["Desayuno", "Almuerzo", "Cena"],
+    meals: ["Desayuno", "Merienda", "Cena chilota de despedida"],
   },
   {
     day: 7,
     title: "Despedida",
     icon: Sunrise,
     activities: [
-      "Desayuno en la cabaña",
-      "Almuerzo en la cabaña (Según horario de salida)",
-      "Check-out y empaque",
-      "Traslado al aeropuerto de Mocopulli Castro o terminal de buses Ancud",
+      "Traslado al aeropuerto Mocopulli de Castro o terminal de buses de Ancud",
       "Fin de la experiencia",
     ],
-    meals: ["Desayuno", "Almuerzo"],
+    meals: ["Desayuno"],
   },
 ]
 

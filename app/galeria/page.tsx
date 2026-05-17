@@ -42,10 +42,6 @@ const galleryImages = [
     alt: "Foto de un amanecer",
   },
   {
-    src: "/ambas_cabanas.jpg",
-    alt: "Vista de ambas cabañas",
-  },
-  {
     src: "/baño.jpeg",
     alt: "Baño de la cabaña",
   },
@@ -56,22 +52,6 @@ const galleryImages = [
   {
     src: "/banca_en_muelle.jpeg",
     alt: "Banca en muelle",
-  },
-  {
-    src: "/cabana1.jpg",
-    alt: "Cabaña 1",
-  },
-  {
-    src: "/cabana2.jpg",
-    alt: "Cabaña 2",
-  },
-  {
-    src: "/cabana_interior.jpeg",
-    alt: "Interior de una cabaña",
-  },
-  {
-    src: "/cabana_interior2.jpeg",
-    alt: "Segundo interior de la cabaña",
   },
   {
     src: "/Casa.png",
@@ -94,24 +74,12 @@ const galleryImages = [
     alt: "Imagen de un desayuno tradicional chileno con pan amasado, queso de campo y mermelada casera",
   },
   {
-    src: "/dormitorio1.jpeg",
-    alt: "Dormitorio principal con cama matrimonial",
-  },
-  {
     src: "/Flores_frente_casa.jpeg",
     alt: "Flores frente casa",
   },
   {
-    src: "/Foto_museo2.jpeg",
-    alt: "Foto museo 2",
-  },
-  {
     src: "/iglesia.jpg",
     alt: "Imagen de la iglesia de Quemchi, un ícono arquitectónico de Chiloé",
-  },
-  {
-    src: "/Iglesia2.jpeg",
-    alt: "Iglesia 2",
   },
   {
     src: "/Iglesia3.jpeg",
@@ -126,24 +94,8 @@ const galleryImages = [
     alt: "Cartel de bienvenida a la Isla de las Almas",
   },
   {
-    src: "/Mesa_cabana1.jpeg",
-    alt: "Mesa interior en cabaña 1",
-  },
-  {
-    src: "/mesa_cabana1_2.jpeg",
-    alt: "Mesa exterior en cabaña 1",
-  },
-  {
-    src: "/mesa_cabana2.jpeg",
-    alt: "Mesa exterior en cabaña 2",
-  },
-  {
     src: "/msueo_mechuque.jpg",
     alt: "vista exterior del museo de Isla Mechuque con palafitos al fondo",
-  },
-  {
-    src: "/Muelle.jpeg",
-    alt: "Muelle",
   },
   {
     src: "/Naturaleza.jpeg",
@@ -170,16 +122,167 @@ const galleryImages = [
     alt: "Preparación tradicional del curanto chilote en hoyo con piedras calientes y mariscos frescos",
   },
   {
-    src: "/vista_ventana.jpeg",
-    alt: "Vista desde la ventana",
+  src: "/tres cabañas.jpg",
+  alt: "Vista de tres cabañas",
   },
   {
-    src: "/vista_ventana2.jpeg",
-    alt: "Segunda vista desde la ventana",
+    src: "/Iglesia2.jpeg",
+    alt: "Iglesia 2",
   },
   {
-    src: "/Vista_playa.jpeg",
-    alt: "Imagen del pueblo de Quemchi con mar al fondo",
+  src: "/un kayak.jpg",
+  alt: "Kayak individual",
+  },
+  {
+  src: "/ventana cama roja azul.jpg",
+  alt: "Habitación con ventana y cama roja azul",
+  },
+  {
+  src: "/vinos.jpg",
+  alt: "Botellas de vino",
+  },
+  {
+  src: "/arcoiris.jpg",
+  alt: "Arcoíris en el paisaje",
+  },
+  {
+  src: "/astillero en galpon.jpg",
+  alt: "Astillero dentro de un galpón",
+  },
+  {
+  src: "/astillero en la costa.jpg",
+  alt: "Astillero ubicado en la costa",
+  },
+  {
+  src: "/atardecer osuro.jpg",
+  alt: "Atardecer oscuro en la costa",
+  },
+  {
+  src: "/baño desde afuera.jpg",
+  alt: "Vista del baño desde afuera",
+  },
+  {
+  src: "/baño wc cortina abierta.jpg",
+  alt: "Baño con WC y cortina abierta",
+  },
+  {
+  src: "/baño wc lavamanos.jpg",
+  alt: "Baño con WC y lavamanos",
+  },
+  {
+  src: "/barco encallado.jpg",
+  alt: "Barco encallado en la costa",
+  },
+  {
+  src: "/barco solo.jpg",
+  alt: "Barco solitario",
+  },
+  {
+  src: "/barcos dos.jpg",
+  alt: "Dos barcos en la costa",
+  },
+  {
+  src: "/cama blanca azul dos.jpg",
+  alt: "Habitación con cama blanca y azul",
+  },
+  {
+  src: "/cama blanca azul tres.jpg",
+  alt: "Otra vista de cama blanca y azul",
+  },
+  {
+  src: "/cama blanca azul.jpg",
+  alt: "Cama blanca con detalles azules",
+  },
+  {
+  src: "/cama blanca con lineas.jpg",
+  alt: "Cama blanca con líneas decorativas",
+  },
+  {
+  src: "/cama blanca.jpg",
+  alt: "Cama blanca en habitación",
+  },
+  {
+  src: "/cama roja azul dos.jpg",
+  alt: "Otra vista de cama roja y azul",
+  },
+  {
+  src: "/cama roja azul.jpg",
+  alt: "Cama roja y azul en habitación",
+  },
+  {
+  src: "/cielo en la tarde.jpg",
+  alt: "Cielo durante la tarde",
+  },
+  {
+  src: "/comedor dos.jpg",
+  alt: "Comedor de la cabaña",
+  },
+  {
+  src: "/comedor tres.jpg",
+  alt: "Otra vista del comedor",
+  },
+  {
+  src: "/costa horizontal en la tarde.jpg",
+  alt: "Vista horizontal de la costa en la tarde",
+  },
+  {
+  src: "/costa horizontal.jpg",
+  alt: "Vista horizontal de la costa",
+  },
+  {
+  src: "/dos kayak.jpg",
+  alt: "Dos kayaks",
+  },
+  {
+  src: "/estatua acordeon.jpg",
+  alt: "Estatua de acordeón",
+  },
+  {
+  src: "/tres cabañas tres.jpg",
+  alt: "Tercera vista de tres cabañas",
+  },
+  {
+  src: "/gente comiendo.jpg",
+  alt: "Personas compartiendo una comida",
+  },
+  {
+  src: "/horno con comida.jpg",
+  alt: "Horno con comida preparada",
+  },
+  {
+  src: "/iglesia con nubes.jpg",
+  alt: "Iglesia bajo cielo nublado",
+  },
+  {
+  src: "/living mesa.jpg",
+  alt: "Living con mesa",
+  },
+  {
+  src: "/mesa con desayuno.jpg",
+  alt: "Mesa servida con desayuno",
+  },
+  {
+  src: "/mirador bandera.jpg",
+  alt: "Mirador con bandera",
+  },
+  {
+  src: "/puente sobre lago con isla.jpg",
+  alt: "Puente sobre lago con isla",
+  },
+  {
+  src: "/sofa.jpg",
+  alt: "Sofá del interior de la cabaña",
+  },
+  {
+  src: "/sol a traves de nubes.jpg",
+  alt: "Sol atravesando las nubes",
+  },
+  {  src: "/tres cabañas cuatro.jpg",
+  alt: "Vista adicional de tres cabañas",
+  },
+  {
+  src: "/tres cabañas dos.jpg",
+  alt: "Segunda vista de tres cabañas",
   }
 ]
 
