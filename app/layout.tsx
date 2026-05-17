@@ -100,7 +100,12 @@ export const metadata: Metadata = {
   verification: {
     google: "google-site-verification-code",
   },
-    generator: 'v0.dev'
+  icons: {
+    icon: "/LogoCPG.png",
+    shortcut: "/LogoCPG.png",
+    apple: "/LogoCPG.png",
+  },
+  generator: "v0.dev",
 }
 
 export default function RootLayout({
@@ -111,6 +116,7 @@ export default function RootLayout({
   return (
     <html lang="es-CL">
       <head>
+        <link rel="icon" href="/LogoCPG.png" />
         <link rel="canonical" href="https://cabañasplayaguardiamo.cl" />
         <meta name="geo.region" content="CL-LL" />
         <meta name="geo.placename" content="Quemchi, Chiloé" />
