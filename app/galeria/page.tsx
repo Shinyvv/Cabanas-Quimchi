@@ -36,42 +36,18 @@ export const metadata: Metadata = {
   },
 }
 
-const galleryImages = [
+const vistasImages = [
   {
     src: "/amanecer.jpg",
     alt: "Foto de un amanecer",
-  },
-  {
-    src: "/baño.jpeg",
-    alt: "Baño de la cabaña",
-  },
-  {
-    src: "/baño2.jpeg",
-    alt: "Segundo baño de la cabaña",
   },
   {
     src: "/banca_en_muelle.jpeg",
     alt: "Banca en muelle",
   },
   {
-    src: "/Casa.png",
-    alt: "Casa",
-  },
-  {
-    src: "/Casas_elevadas.jpeg",
-    alt: "Casas elevadas",
-  },
-  {
     src: "/cascada_tocohue.jpg",
     alt: "Imagen de la cascada Toco Hue en Quemchi",
-  },
-  {
-    src: "/comida_tradicional.jpg",
-    alt: "Comida tradicional",
-  },
-  {
-    src: "/desayuno_tradicional.jpg",
-    alt: "Imagen de un desayuno tradicional chileno con pan amasado, queso de campo y mermelada casera",
   },
   {
     src: "/Flores_frente_casa.jpeg",
@@ -122,24 +98,12 @@ const galleryImages = [
     alt: "Preparación tradicional del curanto chilote en hoyo con piedras calientes y mariscos frescos",
   },
   {
-  src: "/tres cabañas.jpg",
-  alt: "Vista de tres cabañas",
-  },
-  {
     src: "/Iglesia2.jpeg",
     alt: "Iglesia 2",
   },
   {
   src: "/un kayak.jpg",
   alt: "Kayak individual",
-  },
-  {
-  src: "/ventana cama roja azul.jpg",
-  alt: "Habitación con ventana y cama roja azul",
-  },
-  {
-  src: "/vinos.jpg",
-  alt: "Botellas de vino",
   },
   {
   src: "/arcoiris.jpg",
@@ -158,18 +122,6 @@ const galleryImages = [
   alt: "Atardecer oscuro en la costa",
   },
   {
-  src: "/baño desde afuera.jpg",
-  alt: "Vista del baño desde afuera",
-  },
-  {
-  src: "/baño wc cortina abierta.jpg",
-  alt: "Baño con WC y cortina abierta",
-  },
-  {
-  src: "/baño wc lavamanos.jpg",
-  alt: "Baño con WC y lavamanos",
-  },
-  {
   src: "/barco encallado.jpg",
   alt: "Barco encallado en la costa",
   },
@@ -182,44 +134,8 @@ const galleryImages = [
   alt: "Dos barcos en la costa",
   },
   {
-  src: "/cama blanca azul dos.jpg",
-  alt: "Habitación con cama blanca y azul",
-  },
-  {
-  src: "/cama blanca azul tres.jpg",
-  alt: "Otra vista de cama blanca y azul",
-  },
-  {
-  src: "/cama blanca azul.jpg",
-  alt: "Cama blanca con detalles azules",
-  },
-  {
-  src: "/cama blanca con lineas.jpg",
-  alt: "Cama blanca con líneas decorativas",
-  },
-  {
-  src: "/cama blanca.jpg",
-  alt: "Cama blanca en habitación",
-  },
-  {
-  src: "/cama roja azul dos.jpg",
-  alt: "Otra vista de cama roja y azul",
-  },
-  {
-  src: "/cama roja azul.jpg",
-  alt: "Cama roja y azul en habitación",
-  },
-  {
   src: "/cielo en la tarde.jpg",
   alt: "Cielo durante la tarde",
-  },
-  {
-  src: "/comedor dos.jpg",
-  alt: "Comedor de la cabaña",
-  },
-  {
-  src: "/comedor tres.jpg",
-  alt: "Otra vista del comedor",
   },
   {
   src: "/costa horizontal en la tarde.jpg",
@@ -238,28 +154,8 @@ const galleryImages = [
   alt: "Estatua de acordeón",
   },
   {
-  src: "/tres cabañas tres.jpg",
-  alt: "Tercera vista de tres cabañas",
-  },
-  {
-  src: "/gente comiendo.jpg",
-  alt: "Personas compartiendo una comida",
-  },
-  {
-  src: "/horno con comida.jpg",
-  alt: "Horno con comida preparada",
-  },
-  {
   src: "/iglesia con nubes.jpg",
   alt: "Iglesia bajo cielo nublado",
-  },
-  {
-  src: "/living mesa.jpg",
-  alt: "Living con mesa",
-  },
-  {
-  src: "/mesa con desayuno.jpg",
-  alt: "Mesa servida con desayuno",
   },
   {
   src: "/mirador bandera.jpg",
@@ -270,12 +166,111 @@ const galleryImages = [
   alt: "Puente sobre lago con isla",
   },
   {
-  src: "/sofa.jpg",
-  alt: "Sofá del interior de la cabaña",
-  },
-  {
   src: "/sol a traves de nubes.jpg",
   alt: "Sol atravesando las nubes",
+  },
+  {
+    src: "/Casa.png",
+    alt: "Casa",
+  },
+  {
+    src: "/Casas_elevadas.jpeg",
+    alt: "Casas elevadas",
+  }
+]
+
+const cabanasImages = [
+  {
+    src: "/baño.jpeg",
+    alt: "Baño de la cabaña",
+  },
+  {
+    src: "/baño2.jpeg",
+    alt: "Segundo baño de la cabaña",
+  },
+  {
+    src: "/ventana cama roja azul.jpg",
+    alt: "Habitación con ventana y cama roja azul",
+  },
+  {
+    src: "/baño desde afuera.jpg",
+    alt: "Vista del baño desde afuera",
+  },
+  {
+    src: "/baño wc cortina abierta.jpg",
+    alt: "Baño con WC y cortina abierta",
+  },
+  {
+    src: "/baño wc lavamanos.jpg",
+    alt: "Baño con WC y lavamanos",
+  },
+  {
+    src: "/cama blanca azul dos.jpg",
+    alt: "Habitación con cama blanca y azul",
+  },
+  {
+    src: "/cama blanca azul tres.jpg",
+    alt: "Otra vista de cama blanca y azul",
+  },
+  {
+    src: "/cama blanca azul.jpg",
+    alt: "Cama blanca con detalles azules",
+  },
+  {
+    src: "/cama blanca con lineas.jpg",
+    alt: "Cama blanca con líneas decorativas",
+  },
+  {
+    src: "/cama blanca.jpg",
+    alt: "Cama blanca en habitación",
+  },
+  {
+  src: "/vinos.jpg",
+  alt: "Botellas de vino",
+  },
+  {
+    src: "/cama roja azul dos.jpg",
+    alt: "Otra vista de cama roja y azul",
+  },
+  {
+    src: "/cama roja azul.jpg",
+    alt: "Cama roja y azul en habitación",
+  },
+  {
+    src: "/sofa.jpg",
+    alt: "Sofá del interior de la cabaña",
+  },
+  {
+    src: "/comedor dos.jpg",
+    alt: "Comedor de la cabaña",
+  },
+  {
+    src: "/comedor tres.jpg",
+    alt: "Otra vista del comedor",
+  },
+  {
+    src: "/living mesa.jpg",
+    alt: "Living con mesa",
+  },
+  {
+  src: "/mesa con desayuno.jpg",
+  alt: "Mesa servida con desayuno",
+  },
+  {
+    src: "/comida_tradicional.jpg",
+    alt: "Comida tradicional",
+  },
+  {
+    src: "/desayuno_tradicional.jpg",
+    alt: "Imagen de un desayuno tradicional chileno con pan amasado, queso de campo y mermelada casera",
+  },
+  {
+  src: "/horno con comida.jpg",
+  alt: "Horno con comida preparada",
+  },
+  {
+    src: "/tres cabañas tres.jpg",
+    alt: "Tercera vista de tres cabañas",
   },
   {  src: "/tres cabañas cuatro.jpg",
   alt: "Vista adicional de tres cabañas",
@@ -302,7 +297,31 @@ export default function GaleriaPage() {
           </p>
         </div>
 
-        <ImageGallery images={galleryImages} />
+        <div className="space-y-12">
+          <section className="space-y-6">
+            <div className="space-y-2">
+              <h2 className="font-serif text-3xl md:text-4xl font-bold text-umber-700">
+                Vistas, Paisajes y Más
+              </h2>
+              <p className="text-umber-600 max-w-2xl">
+                Rincones de Quemchi, su costa y experiencias que se viven alrededor de las cabañas.
+              </p>
+            </div>
+            <ImageGallery images={vistasImages} />
+          </section>
+
+          <section className="space-y-6">
+            <div className="space-y-2">
+              <h2 className="font-serif text-3xl md:text-4xl font-bold text-umber-700">
+                Cabañas y su interior
+              </h2>
+              <p className="text-umber-600 max-w-2xl">
+                Detalles del interior, comodidad y espacios pensados para el descanso.
+              </p>
+            </div>
+            <ImageGallery images={cabanasImages} />
+          </section>
+        </div>
       </div>
     </div>
   )

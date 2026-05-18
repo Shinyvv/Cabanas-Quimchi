@@ -31,7 +31,7 @@ const cabanasData = [
     capacity: "4-6 personas",
     description: "Cabaña acogedora con ambiente rural, Perfecta para quienes buscan desconectarse.",
     amenities: ["Baño privado", "Calefacción", "Vista al mar", "Terraza"],
-    image: "/cabana1.jpg",
+    image: "/tres cabañas dos.jpg",
   },
   {
     id: 2,
