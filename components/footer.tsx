@@ -9,7 +9,7 @@ export function Footer() {
           {/* Logo y descripción */}
           <div className="lg:col-span-2">
             <h3 className="font-serif text-2xl font-bold text-parchment-100 mb-4">
-              Cabañas Guardiamó
+              Cabañas Playa Guardiamó
             </h3>
             <p className="text-parchment-200 mb-4 leading-relaxed">
               Experiencia all-inclusive en el corazón de Chiloé. Descubre la magia de Quemchi 
@@ -149,7 +149,7 @@ export function Footer() {
         <div className="border-t border-umber-800 mt-8 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-parchment-300 text-sm">
-              © 2025 Cabañas Guardiamó. Todos los derechos reservados.
+              © 2026 Cabañas Playa Guardiamó. Todos los derechos reservados.
             </p>
             <p className="text-parchment-300 text-sm mt-4 md:mt-0">
               Hecho por{" "}
@@ -159,7 +159,7 @@ export function Footer() {
                 rel="noopener noreferrer"
                 className="hover:text-parchment-200 underline transition-colors duration-200"
               >
-                DasPix by Daniel Shinya
+                DasPix
               </a>
             </p>
             <div className="flex items-center space-x-4 mt-4 md:mt-0">

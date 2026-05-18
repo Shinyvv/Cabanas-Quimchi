@@ -5,9 +5,9 @@ export const metadata: Metadata = {
   title: "Contacto",
   description:
     "Contáctanos por WhatsApp o email para reservar tu experiencia all-inclusive en Quemchi. Atención personalizada y respuesta rápida para todas tus consultas.",
-  keywords: ["contacto Cabañas Guardiamó", "WhatsApp Chiloé", "reservas Quemchi", "consultas turismo"],
+  keywords: ["contacto Cabañas Playa Guardiamó", "WhatsApp Chiloé", "reservas Quemchi", "consultas turismo"],
   openGraph: {
-    title: "Contacto | Cabañas Guardiamó",
+    title: "Contacto | Cabañas Playa Guardiamó",
     description:
       "Contáctanos para reservar tu experiencia all-inclusive en Quemchi. WhatsApp y email disponibles con atención personalizada.",
     images: ["/contacto-og.jpg"],

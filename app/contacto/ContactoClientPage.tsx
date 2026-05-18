@@ -9,14 +9,14 @@ import { Breadcrumbs } from "@/components/breadcrumbs"
 export default function ContactoClientPage() {
   const handleWhatsAppClick = () => {
     const phoneNumber = "56993615655"
-    const message = "Hola! Me interesa conocer más sobre las Cabañas Guardiamó en Quemchi"
+    const message = "Hola! Me interesa conocer más sobre las Cabañas Playa Guardiamó en Quemchi"
     const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`
     window.open(url, "_blank")
   }
 
   const handleEmailClick = () => {
     const email = "leonortega@hotmail.com"
-    const subject = "Consulta sobre Cabañas Guardiamó"
+    const subject = "Consulta sobre Cabañas Playa Guardiamó"
     const body =
       "Hola,\n\nMe interesa conocer más información sobre las cabañas y el programa all-inclusive.\n\nGracias!"
     const url = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`

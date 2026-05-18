@@ -4,7 +4,7 @@ import { MessageCircle } from "lucide-react"
 
 export function WhatsAppButton() {
   const phoneNumber = "56993615655" // Reemplazar con el número real
-  const message = "Hola! Me interesa conocer más sobre las Cabañas Guardiamó en Quemchi"
+  const message = "Hola! Me interesa conocer más sobre las Cabañas Playa Guardiamó en Quemchi"
 
   const handleWhatsAppClick = () => {
     const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`

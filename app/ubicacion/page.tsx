@@ -7,7 +7,7 @@ import { Breadcrumbs } from "@/components/breadcrumbs"
 export const metadata: Metadata = {
   title: "Ubicación y Cómo Llegar",
   description:
-    "Instrucciones detalladas para llegar a Cabañas Guardiamó en Quemchi desde aeropuerto Mocopulli, Ancud y Castro. Traslados incluidos y coordenadas GPS.",
+    "Instrucciones detalladas para llegar a Cabañas Playa Guardiamó en Quemchi desde aeropuerto Mocopulli, Ancud y Castro. Traslados incluidos y coordenadas GPS.",
   keywords: ["ubicación Quemchi", "cómo llegar Chiloé", "aeropuerto Mocopulli", "traslados Chiloé", "coordenadas GPS"],
   openGraph: {
     title: "Ubicación y Cómo Llegar | Cabañas Playa Guardiamó - Quemchi, Chiloé",

@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     "experiencias Chiloé",
   ],
   openGraph: {
-    title: "Programa Completo 7 Días | Cabañas Guardiamó",
+    title: "Programa Completo 7 Días | Cabañas Playa Guardiamó",
     description:
       "Itinerario detallado de 7 días con navegación a Isla Mechuque, curanto tradicional, avistamiento de aves y experiencias únicas en Chiloé.",
     images: ["/programa-og.jpg"],

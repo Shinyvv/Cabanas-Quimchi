@@ -21,7 +21,7 @@ export const homeStructuredData = {
     {
       "@type": "LodgingBusiness",
       "@id": "https://cabanasguardiamo.cl/#business",
-      name: "Cabañas Guardiamó",
+      name: "Cabañas Playa Guardiamó",
       description: "Cabañas all-inclusive en Quemchi, Chiloé con experiencias gastronómicas y turísticas únicas",
       url: "https://cabanasguardiamo.cl",
       telephone: "+56912345678",
@@ -95,7 +95,7 @@ export const homeStructuredData = {
       "@type": "WebSite",
       "@id": "https://cabanasguardiamo.cl/#website",
       url: "https://cabanasguardiamo.cl",
-      name: "Cabañas Guardiamó",
+      name: "Cabañas Playa Guardiamó",
       description: "Experiencia all-inclusive en Quemchi, Chiloé",
       publisher: {
         "@id": "https://cabanasguardiamo.cl/#business",
@@ -122,7 +122,7 @@ export const programStructuredData = {
   duration: "P7D",
   provider: {
     "@type": "LodgingBusiness",
-    name: "Cabañas Guardiamó",
+    name: "Cabañas Playa Guardiamó",
   },
   itinerary: [
     {
@@ -151,11 +151,11 @@ export const programStructuredData = {
 export const accommodationStructuredData = {
   "@context": "https://schema.org",
   "@type": "AccommodationProduct",
-  name: "Cabañas Guardiamó - Alojamiento",
+  name: "Cabañas Playa Guardiamó - Alojamiento",
   description: "Cabañas para 2-10 personas con servicios incluidos",
   provider: {
     "@type": "LodgingBusiness",
-    name: "Cabañas Guardiamó",
+    name: "Cabañas Playa Guardiamó",
   },
   accommodationCategory: "Cabin",
   amenityFeature: [

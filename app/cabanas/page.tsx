@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     "2-10 personas",
   ],
   openGraph: {
-    title: "Nuestras Cabañas | Cabañas Guardiamó",
+    title: "Nuestras Cabañas | Cabañas Playa Guardiamó",
     description:
       "Cabañas equipadas para 2-10 personas con vista al mar y todos los servicios incluidos en Quemchi, Chiloé.",
     images: ["/cabanas-og.jpg"],
