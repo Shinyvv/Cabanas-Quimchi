@@ -6,11 +6,10 @@ import { Breadcrumbs } from "@/components/breadcrumbs"
 export const metadata: Metadata = {
   title: "Galería de Fotos",
   description:
-    "Descubre a través de imágenes la belleza natural de Quemchi, las experiencias gastronómicas, navegación a Isla Mechuque y las cómodas instalaciones de nuestras cabañas.",
+    "Descubre a través de imágenes la belleza natural de Quemchi, las experiencias gastronómicas, navegación y las cómodas instalaciones de nuestras cabañas.",
   keywords: [
     "fotos Chiloé",
     "galería Quemchi",
-    "Isla Mechuque",
     "curanto fotos",
     "cabañas imágenes",
     "paisajes Chiloé",

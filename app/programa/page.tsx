@@ -8,11 +8,10 @@ import { DocumentViewer } from "@/components/document-viewer"
 export const metadata: Metadata = {
   title: "Programa Completo 7 Días",
   description:
-    "Descubre día a día todas las experiencias que te esperan en tu estadía all-inclusive en Quemchi: navegación a Isla Mechuque, curanto tradicional, avistamiento de aves y más.",
+    "Descubre día a día todas las experiencias que te esperan en tu estadía all-inclusive en Quemchi: navegación a Islas, curanto tradicional, avistamiento de aves y más.",
   keywords: [
     "programa Chiloé",
     "itinerario Quemchi",
-    "Isla Mechuque",
     "curanto",
     "avistamiento aves",
     "experiencias Chiloé",
@@ -20,7 +19,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Programa Completo 7 Días | Cabañas Playa Guardiamó",
     description:
-      "Itinerario detallado de 7 días con navegación a Isla Mechuque, curanto tradicional, avistamiento de aves y experiencias únicas en Chiloé.",
+      "Itinerario detallado de 7 días con navegación a Islas , curanto tradicional, avistamiento de aves y experiencias únicas en Chiloé.",
     images: ["/programa-og.jpg"],
   },
 }

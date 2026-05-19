@@ -31,7 +31,6 @@ export const metadata: Metadata = {
     "cabañas",
     "all-inclusive",
     "turismo Chile",
-    "Isla Mechuque",
     "curanto",
     "salmón cancato",
     "avistamiento aves",

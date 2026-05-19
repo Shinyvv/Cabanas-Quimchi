@@ -83,7 +83,7 @@ export const homeStructuredData = {
       itinerary: [
         {
           "@type": "TouristDestination",
-          name: "Isla Mechuque",
+          name: "Isla",
         },
         {
           "@type": "TouristDestination",
@@ -138,7 +138,7 @@ export const programStructuredData = {
     {
       "@type": "TouristDestination",
       name: "Día 4: Navegación a Islas",
-      description: "Excursión a Isla Caucahue e Islas Mechuque",
+      description: "Excursión a Isla Local",
     },
     {
       "@type": "TouristDestination",

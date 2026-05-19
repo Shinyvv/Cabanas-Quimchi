@@ -30,7 +30,7 @@ interface ReviewsCarouselProps {
 export function ReviewsCarousel({ title = "Comentarios de nuestros visitantes" }: ReviewsCarouselProps) {
   const [selectedIndex, setSelectedIndex] = useState<number | null>(null)
 
-  const openLightbox = useCallback((index: number) => {
+  const openFullscreen = useCallback((index: number) => {
     setSelectedIndex(index)
   }, [])
 
@@ -57,7 +57,7 @@ export function ReviewsCarousel({ title = "Comentarios de nuestros visitantes" }
                   <CardContent className="p-0">
                     <button
                       type="button"
-                      onClick={() => openLightbox(index)}
+                      onClick={() => openFullscreen(index)}
                       className="relative block aspect-[4/5] w-full overflow-hidden bg-parchment-100 focus:outline-none focus-visible:ring-2 focus-visible:ring-umber-600 focus-visible:ring-offset-2"
                       aria-label={`Abrir imagen ampliada: ${image.alt}`}
                     >
@@ -90,22 +90,29 @@ export function ReviewsCarousel({ title = "Comentarios de nuestros visitantes" }
 
       <Dialog open={selectedIndex !== null} onOpenChange={(open) => !open && setSelectedIndex(null)}>
         <DialogContent
-          aria-label="Vista ampliada de comentario"
-          className="fixed left-1/2 top-1/2 z-50 grid w-[min(96vw,72rem)] translate-x-[-50%] translate-y-[-50%] gap-0 border-0 bg-transparent p-0 shadow-none outline-none data-[state=open]:animate-in data-[state=closed]:animate-out"
+          aria-label="Vista en pantalla completa"
+          className="fixed inset-0 z-50 grid h-screen w-screen max-w-none translate-x-0 translate-y-0 gap-0 border-0 bg-black/95 p-4 shadow-none outline-none data-[state=open]:animate-in data-[state=closed]:animate-out sm:p-8"
         >
           {selectedImage ? (
-            <div className="relative overflow-hidden rounded-[1.75rem] border border-white/20 bg-[#120f0b] shadow-[0_30px_120px_rgba(0,0,0,0.45)]">
-              <div className="relative aspect-[4/5] max-h-[88vh] w-full sm:aspect-[16/10]">
-                <Image
-                  src={selectedImage.src}
-                  alt={selectedImage.alt}
-                  fill
-                  sizes="96vw"
-                  className="object-contain"
-                  loading="eager"
-                />
-              </div>
-            </div>
+            <button
+              type="button"
+              onClick={() => setSelectedIndex(null)}
+              aria-label="Cerrar vista en pantalla completa"
+              className="relative h-full w-full cursor-zoom-out"
+            >
+              <span className="absolute left-1/2 top-6 z-10 -translate-x-1/2 rounded-full bg-black/45 px-4 py-2 text-xs font-medium text-white sm:text-sm">
+                <span className="sm:hidden">Toca la pantalla nuevamente para cerrar</span>
+                <span className="hidden sm:inline">Haz click nuevamente para cerrar</span>
+              </span>
+              <Image
+                src={selectedImage.src}
+                alt={selectedImage.alt}
+                fill
+                sizes="100vw"
+                className="object-contain"
+                loading="eager"
+              />
+            </button>
           ) : null}
         </DialogContent>
       </Dialog>

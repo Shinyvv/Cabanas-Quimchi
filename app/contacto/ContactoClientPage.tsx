@@ -99,17 +99,10 @@ export default function ContactoClientPage() {
             <CardContent>
               <div className="space-y-2 text-umber-600">
                 <div className="flex justify-between">
-                  <span>Lunes a Viernes:</span>
-                  <span className="font-semibold">9:00 - 18:00</span>
+                  <span>Lunes a Domingos:</span>
+                  <span className="font-semibold">8:00 - 20:00</span>
                 </div>
-                <div className="flex justify-between">
-                  <span>Sábados:</span>
-                  <span className="font-semibold">10:00 - 16:00</span>
-                </div>
-                <div className="flex justify-between">
-                  <span>Domingos:</span>
-                  <span className="font-semibold">Solo WhatsApp</span>
-                </div>
+                
               </div>
             </CardContent>
           </Card>
